@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             style="?android:attr/borderlessButtonStyle"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/buttonDelete"
             android:textColor="?attr/colorAccent"
             android:text="DELETE"
@@ -62,6 +62,17 @@
             android:layout_below="@+id/textViewDeskripsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            app:srcCompat="@drawable/ic_favorite_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/buttonFavorite"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/textViewDeskripsi"
+            android:layout_toLeftOf="@+id/buttonShare"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:tint="#757575"
             style="?android:attr/borderlessButtonStyle"
             app:srcCompat="@drawable/ic_favorite_black_24dp"/>
 
